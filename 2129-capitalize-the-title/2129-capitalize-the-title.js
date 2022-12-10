@@ -8,6 +8,7 @@ var capitalizeTitle = function(title) {
     for(let i =0; i<title.length ;i++){
         if(title[i].length <=2){
           title[i] = title[i].toLowerCase()
+            
         }
     }
     
