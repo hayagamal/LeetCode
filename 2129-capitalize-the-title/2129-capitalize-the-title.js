@@ -10,5 +10,7 @@ var capitalizeTitle = function(title) {
           title[i] = title[i].charAt(0).toLowerCase() + title[i].slice(1).toLowerCase()
         }
     }
-    return title.join(" ")
+    
+  title=title.join(" ")
+    return title
 };
