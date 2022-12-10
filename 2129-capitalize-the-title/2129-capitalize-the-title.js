@@ -11,6 +11,6 @@ var capitalizeTitle = function(title) {
         }
     }
     
-  title=title.join(" ")
+    title=title.join(" ")
     return title
 };
