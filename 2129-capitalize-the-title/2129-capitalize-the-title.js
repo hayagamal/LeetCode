@@ -11,6 +11,7 @@ var capitalizeTitle = function(title) {
           title[i] = title[i].toLowerCase() 
         }
     }
+    
     title=title.join(" ")
     return title
 };
